@@ -1,0 +1,6 @@
+.eslintrc.json
+config.json
+database.sqlite
+node_modules
+.idea
+package-lock.json
