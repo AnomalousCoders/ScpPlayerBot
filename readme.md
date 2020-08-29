@@ -2,10 +2,10 @@
 ###### A simple Discord bot showing the Player-Status of your SCP: Secret Laboratory Server!
 
 ## Installation
-1. Make sure you have git (git-scm.com) and Node.js (nodejs.org) installed.
-2. Run `git clone https://github.com/AnomalousCoders/ScpPlayerBot.git` in the directory you want the bot in
-3. Set up the `config.json` file (More Details found in the *Config* section)
-4. Run `node index` in the directory where the `index.js` is
+1. Make sure you have Node.js (nodejs.org) installed.
+2. Run `npm install @anomalouscoders/scpplayerbot` in the directory you want the bot in
+3. Set up the `config.json` file in the node_modules\@anomalouscoders\scpplayerbot directory(More Details found in the *Config* section)
+4. Run `node index` in the directory where the `index.js` is (node_modules\@anomalouscoders\scpplayerbot if you don't find it)
 
 ## Config
 Config Name | Explanation 
