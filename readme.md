@@ -4,8 +4,8 @@
 ## Installation
 1. Make sure you have Node.js (nodejs.org) installed.
 2. Run `npm install @anomalouscoders/scpplayerbot` in the directory you want the bot in
-3. Set up the `config.json` file in the node_modules\@anomalouscoders\scpplayerbot directory(More Details found in the *Config* section)
-4. Run `node index` in the directory where the `index.js` is (node_modules\@anomalouscoders\scpplayerbot if you don't find it)
+3. Set up the `config.json` file in the `node_modules\@anomalouscoders\scpplayerbot` directory(More Details found in the *Config* section)
+4. Run `node index` in the directory where the `index.js` is (`node_modules\@anomalouscoders\scpplayerbot` if you don't find it)
 
 ## Config
 Config Name | Explanation 
