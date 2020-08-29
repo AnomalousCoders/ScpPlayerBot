@@ -1,16 +1,15 @@
 {
-  "name": "scpplayerbot",
+  "name": "@anomalouscoders/scpplayerbot",
   "version": "1.0.0",
   "description": "Playerbot for SCP",
   "main": "index.js",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AnomalousCoders/ScpPlayerBot.git"
-  },
+  "repository": "git://github.com/AnomalousCoders/ScpPlayerBot.git",
   "keywords": [
     "discord",
     "scp",
