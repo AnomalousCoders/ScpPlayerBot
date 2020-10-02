@@ -22,7 +22,7 @@ node-fetch 2.6.0
 crypto-js 4.0.0
 ```
 
-##Questions?
+## Questions?
 Check out the Support Discord Server, reachable at https://discord.gg/UNrRVSD
 
 ###### Made by Sinsa#2674
