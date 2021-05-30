@@ -8,7 +8,7 @@ client.once("ready", async () => {
   console.log(`Logged in as ${client.user.tag}`);
   console.log("Successfully started up!\n\n");
   await client.user.setPresence({
-    activity: { name: "Startet...", type: "PLAYING" },
+    activity: { name: "Starting...", type: "PLAYING" },
     status: "idle",
   });
   checkOnlinePlayers();
@@ -19,11 +19,11 @@ client.login(token);
 
 async function checkOnlinePlayers() {
   const hashedAddress = md5(`${ip}:${port}`);
-  const response = await fetch(
-    `https://api.slservers.eu/game/${hashedAddress}`
-  );
+  const response = await fetch(`https://sls.helight.dev/game/${hashedAddress}`);
   if (response.status === 404) {
-    return console.error("Invalid IP or Port.");
+    return console.error(
+      "Server is offline or the provided IP and/or port is invalid."
+    );
   } else if (response.status.toString().match(/5../)) {
     return console.warn(
       "Something is wrong with the Server / Gateway, please try again later."
