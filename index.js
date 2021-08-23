@@ -1,3 +1,8 @@
+/**
+ *
+ * THIS PROJECT IS DISCONTINUED! The Code still here for archivation purposes, though it WON'T WORK ANYMORE. Please refer to the readme.md.
+ */
+
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const md5 = require("crypto-js/md5");
